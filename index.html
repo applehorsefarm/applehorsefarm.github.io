@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Apple Horse Farm</title>
+	<link rel="icon" href="images/ahflogo.png">
+	<link rel="stylesheet" type="text/css" href="banner.css">
+	<link rel="stylesheet" type="text/css" href="navigation.css">
+	<link rel="stylesheet" type="text/css" href="content.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id= "bannercontainer">
+		<div id="banner"></div>
+		<img id="bannerlogo" src="images/ahflogo.png"></img>
+		<!-- <div id="bannertitle" class="shimmer">apple horse farm</div> -->
+		<canvas id="bannertitle"></canvas>
+		<button id="scroll">&nbsp;&#11167;&nbsp;</button>
+	</div>
+	<div id="page">
+		<ul id="navigation">
+			<li><button id="contactbutton">contact</button></li>
+			<li><button id="gallerybutton">gallery</button></li>
+			<li><button id="futurebutton">future</button></li>
+			<li><button id="yellowhousebutton">yellow house</button></li>
+			<li><button id="peoplebutton">people</button></li>
+			<li><button id="homebutton">home</button></li>
+			<li id="navlogolistitem"><a id="navlogobutton" href="#" onClick="window.location.reload()"><img id="navlogo" src="images/ahflogo.png"></img></a></li>
+		</ul>
+		<div id="progressbar"></div>
+		<img id="haybale"src="images/haybale.png"></img>
+		<div class="pagebackground" id="p1"></div>
+		<div class="pagebackground" id="p2"></div>
+		<div class="pagebackground" id="p3"></div>
+		<div class="pagebackground" id="p4"></div>
+		<div class="pagebackground" id="p5"></div>
+		<div id="contentbackground">
+			<div id="home">
+				<div><h1>about us&nbsp;</h1></div>
+				<div id="aboutus">
+					<img src="images/family.jpg" style="width: 60%"></img>
+					<p>Apple Horse Farm is a sustainable ranch nestled in the valleys of Bath County, Virginia.</p>
+					<h2>Our Story</h2>
+					<p>In 1783, Dabney Pasco packed up his belongings and moved to the rustic land of central Virginia. Upon surveying the land, he decided that it was appropriate to move his family there on horseback. After many years of hard, dedicated labor, there is now a lot of hay. There are also a few horses and cows (?)</p>
+					<h2>Our Animals</h2>
+					<p>We have all the animals!! There are cows, horses, pigs, dogs, giraffes, etc. Oh, and our cows are 100% grass-fed!</p>
+					<h2>Our Mission</h2>
+					<p>To get to the moon!! Just kidding :) We want to provide our local area with healthy, sustainable, organic, tasty meat.</p>
+					<h2>Stay with Us!</h2>
+					<p>Apple Horse Farm invites you to share the wonders of rural Virginia with us! The Yellow House is a vacation property for rent (on AirBnB??). It's a secluded, beautiful lodge to visit while touring the many neighboring attractions.</p>
+				</div>
+				<div><h1>news&nbsp;</h1></div>
+				<div id="news">
+					<h2>happy new year!</h2>
+					<p style="text-align:right">January 1, 2019</p>
+					<p>From our family to yours, we wish you all a happy new year and wonderful holiday season! Even though winter isn't leaving any time soon, developments are still ramping up for the farm. Just the other day Saul finished building out a 5-story 10-acre room expansion to accommodate his hair!</p>
+				</div>
+				<div><h1>latest instagram post&nbsp;</h1></div>
+				<div id="ig"><img src="images/instagramexample.png" style="border: 4px solid gray"></img></div>
+			</div>
+			<div id="people">
+				<div style="display:none"><h1>people&nbsp;</h1></div>
+				<div style="display:none">
+					<img id="dabney" src="images/dabney.png"></img>
+					<section class="bio">
+						<h2>Dabney</h2>
+						<p>Dabney was the head of House Pasco, the Lord of Winterfell, Lord Paramount and Warden of the North, and later Hand of the King to King Robert I Baratheon. He was a dedicated husband and father, a loyal friend and an honorable lord.</p>
+					</section>
+				</div>
+				<div style="display:none">
+					<img id="laura" src="images/laura.png"></img>
+					<section class="bio">
+						<h2>Laura</h2>
+						<p>Laura was born into House Dascher as the daughter of Hoster Tully, the Lord Paramount of the Trident, and sister of Lysa and Edmure Tully. She married into House Pasco through her marriage to Dabney Pasco. Together, she and Dabney had two children: Dascher and Saul. Laura was a devoted mother and was fiercely protective of her children.</p>
+					</section>
+				</div>
+				<div style="display:none">
+					<img id="saul" src="images/saul.png"></img>
+					<section class="bio">
+						<h2>Saul</h2>
+						<p>Saul joined the Night's Watch and was eventually chosen as Lord Commander. However, he was later murdered in a mutiny and resurrected by the Red Priestess Melisandre. Freed from his Night's Watch vows, Saul joined his cousin, Carrington, in building an army and together they retake Winterfell from House Bolton, restoring House Pasco's dominion over the North with Saul being declared the new King in the North.</p>
+					</section>
+				</div>
+			</div>
+			<div id="yellowhouse">
+				<div style="display:none"><h1>yellow house&nbsp;</h1></div>
+				<div style="display:none" class="outer-wrapper">
+					<section class="s-wrap s-type-1" role="slider">
+						<input type="radio" id="s-1" name="slider-control" checked="checked">
+						<input type="radio" id="s-2" name="slider-control">
+						<input type="radio" id="s-3" name="slider-control">
+						<input type="radio" id="s-4" name="slider-control">
+						<input type="radio" id="s-5" name="slider-control">
+						<ul class="s-content">
+							<li class="s-item s-item-1"></li>
+							<li class="s-item s-item-2"></li>
+							<li class="s-item s-item-3"></li>
+							<li class="s-item s-item-4"></li>
+							<li class="s-item s-item-5"></li>
+						</ul>
+						<section class="s-control">
+							<label class="s-c-1" for="s-1"></label>
+							<label class="s-c-2" for="s-2"></label>
+							<label class="s-c-3" for="s-3"></label>
+							<label class="s-c-4" for="s-4"></label>
+							<label class="s-c-5" for="s-5"></label>
+						</section>
+						<section class="s-nav">
+							<label class="s-nav-1 right" for="s-2"></label>
+							<label class="s-nav-2 left" for="s-1"></label>
+							<label class="s-nav-2 right" for="s-3"></label>
+							<label class="s-nav-3 left" for="s-2"></label>
+							<label class="s-nav-3 right" for="s-4"></label>
+							<label class="s-nav-4 left" for="s-3"></label>
+							<label class="s-nav-4 right" for="s-5"></label>
+							<label class="s-nav-5 left" for="s-4"></label>
+						</section>
+					</section>
+				</div>
+				<div style="display:none" id="yellowhousedescription">
+					<h2>Virginia's Premiere Getaway Experience</h2>
+					<p>The Yellow House is an invitation for a truly unforgettable, lasting memory combining the very best of luxury and serenity.</p>
+					<p>A short drive from New York City, discover a paradise hideaway where luxurious seclusion meets exotic natural beauty. This verdant, beach-fringed island offers sophisticated pleasures on land and water - from genuine Filipino therapies in the spa to splashing, sailing or diving in the jewel-like Mindanao Sea and Bohol's most pristine lagoon.</p>
+					<p>This stunning resort on the island of Panglao combines the scenic qualities and escapist nature of Bohol facing the Mindanao Sea with the high standards and myriad facilities synonymous with Filipino hospitality. Yet whilst it features almost 15 single-detached luxury villas, their varying locations along the beach front mean tranquillity and privacy can still be readily attained.</p>
+					<p>The name Eskaya refers to the only known indigenous people of Bohol. The resort is situated right in the middle of Panglao Island which is at the southernmost tip of Bohol. It is located halfway through Panglao along its coast with commanding views of the magnificent Mindanao Sea.</p>
+					<p>Designed to reflect Bohol's indigenous culture, Eskaya Beach Resort and Spa is a beautiful, rustic island resort that benefits from a strongly defined sense of community and a relaxed, intimate atmosphere. Awash with Bougainvillea, Bird of Paradise and other native blossoms, this luxurious private island resort has an exotic village-like feel, making it perfect for families and couples for whom a social environment is an important part of the holiday experience.</p>
+					<p>On the accommodation front, there are beautifully-appointed villas or Balai with outdoor showers and whirlpools, as well as an enticing collection of pool villas and suites with breathtaking views into the sea.</p>
+					<p>The design of the 15 Balais of Eskaya draws on the traditions of generations of craftsmen, with a generous use of timber and thatch; the result is a refined natural look that complements the surrounding nature, viewed through floor to ceiling windows. Satellite TVs, DVD players, mini-bars and generous patios are standard throughout. And when it comes to dining, anything from Asian dishes, Italian specialties and native fare are on offer at the main restaurant, massage under the stars, and the in-villa spa service designed for those seeking a little more privacy.</p>
+					<p>At its hub lies an infinity pool, so big and inviting that if it were not for the swim-up bar, one could almost imagine it was created by nature. Its sun deck and adjacent beaches are the most popular venues for relaxation, although the water sports center, PADI dive school and various island-hopping adventures ensure there is plenty of daytime diversity.</p>
+					<p>Eskaya, a vibrant garden island resort, favored for its intimacy and rustic luxury, is poised to become another legendary 100% Filipino-owned resort with unrivaled, intuitive Filipino hospitality and service. The unstinting dedication of its staff will continue to create magical moments to make your stay truly unforgettable. So come and escape with us. Truly memorable, truly Eskaya.</p>
+				</div>
+			</div>
+			<div id="future">
+				<div style="display:none"><h1>future&nbsp;</h1></div>
+				<div style="display:none; text-align:center;"><img id="construction" src="images/construction.jpg"></img></div>
+			</div>
+			<div id="gallery">
+				<div style="display:none"><h1>gallery&nbsp;</h1></div>
+				<div style="display:none" class="top">
+			    	<ul>
+			        	<li><a href="#img_1"><img src="images/cousin.jpg"></a></li>
+			            <li><a href="#img_2"><img src="images/ridinghorses.jpg"></a></li>
+			            <li><a href="#img_3"><img src="images/ridinghorses2.jpg"></a></li>
+			            <li><a href="#img_4"><img src="images/aww.jpg"></a></li>
+			            <li><a href="#img_5"><img src="images/blueeyes.jpg"></a></li>
+			            <li><a href="#img_6"><img src="images/coollighting.jpg"></a></li>
+			            <li><a href="#img_7"><img src="images/browncow.jpg"></a></li>
+			            <li><a href="#img_8"><img src="images/countryside.jpg"></a></li>
+			            <li><a href="#img_9"><img src="images/pig.jpg"></a></li>
+			            <li><a href="#img_10"><img src="images/saulturned.jpg"></a></li>
+			            <li><a href="#img_11"><img src="images/roo.jpg"></a></li>
+			            <li><a href="#img_12"><img src="images/silo.jpg"></a></li>
+			            <li><a href="#img_13"><img src="images/porchshot.jpg"></a></li>
+			            <li><a href="#img_14"><img src="images/shed.jpg"></a></li>
+			            <li><a href="#img_15"><img src="images/whitecow.jpg"></a></li>
+			            <li><a href="#img_16"><img src="images/runninghorse.jpg"></a></li>
+			        </ul>
+			        <a href="#_1" class="lightbox trans" id="img_1"><img src="images/cousin.jpg"></a>
+			        <a href="#_2" class="lightbox trans" id="img_2"><img src="images/ridinghorses.jpg"></a>
+			        <a href="#_3" class="lightbox trans" id="img_3"><img src="images/ridinghorses2.jpg"></a>
+			        <a href="#_4" class="lightbox trans" id="img_4"><img src="images/aww.jpg"></a>
+			        <a href="#_5" class="lightbox trans" id="img_5"><img src="images/blueeyes.jpg"></a>
+			        <a href="#_6" class="lightbox trans" id="img_6"><img src="images/coollighting.jpg"></a>
+			        <a href="#_7" class="lightbox trans" id="img_7"><img src="images/browncow.jpg"></a>
+			        <a href="#_8" class="lightbox trans" id="img_8"><img src="images/countryside.jpg"></a>
+			        <a href="#_9" class="lightbox trans" id="img_9"><img src="images/pig.jpg"></a>
+			        <a href="#_10" class="lightbox trans" id="img_10"><img src="images/saulturned.jpg"></a>
+			        <a href="#_11" class="lightbox trans" id="img_11"><img src="images/roo.jpg"></a>
+			        <a href="#_12" class="lightbox trans" id="img_12"><img src="images/silo.jpg"></a>
+			        <a href="#_13" class="lightbox trans" id="img_13"><img src="images/porchshot.jpg"></a>
+			        <a href="#_14" class="lightbox trans" id="img_14"><img src="images/shed.jpg"></a>
+			        <a href="#_15" class="lightbox trans" id="img_15"><img src="images/whitecow.jpg"></a>
+			        <a href="#_16" class="lightbox trans" id="img_16"><img src="images/runninghorse.jpg"></a>
+			    </div>
+				<div style="display:none"><h2>If this page slows down, please refresh your browser.</h2></div>
+			</div>
+			<div id="contact">
+				<div style="display:none"><h1>contact&nbsp;</h1></div>
+				<div style="display:none" class="contactformcontainer">
+					<form action="contact.php" method="post" target="hiddenFrame">
+						<label for="name">Name or Organization</label>
+						<input type="text" id="name" name="name" placeholder="Your name.." style="height:50px">
+						<label for="email">E-mail</label>
+						<input type="text" id="email" name="email" placeholder="Your e-mail.." style="height:50px">
+						<label for="message">Message</label>
+						<textarea type="text" id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+						<br>
+						<input type="submit" value="Submit">
+					</form>
+					<iframe name="hiddenFrame" style="position:absolute; top:-1px; left:-1px; width:1px; height:1px; opacity:0;"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footersociallinks">
+			<a href="https://www.facebook.com/applehorsefarm/" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://www.instagram.com/applehorsefarm/" target="_blank" class="fa fa-instagram"></a>
+			L L O W&nbsp;&nbsp;U S
+		</div>
+		<div style="font-family:telefon;font-style:italic; text-align:center;color:#b40000;font-size: 1rem; padding-top:30px;">Copyright &#169; 2019 Apple Horse Farm. All Rights Reserved.</div>
+		<div style="position:absolute; left:16%; top:1rem;"><a href="#" onClick="window.location.reload()"><img src="images/ahflogo.png" style="height:8rem;"></img></a></div>
+	</div>
+	<script src="scrolling.js"></script>
+	<script src="banneranimation.js"></script>
+	<script src="contentswitching.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/* Navigation */
+ul#navigation {
+	z-index: 1;
+	position: absolute;
+	top:0%;
+	right:0%;
+	width:78.5%;
+	text-align:center;
+	list-style-type: none;
+	margin:0px;
+	padding: 25px 10vw 15px 11.5vw;
+	background-color: #D3D3D3;
+}
+ul#navigation li {
+	float: right;
+}
+ul#navigation li button{
+	margin:0px;
+	padding:0px 20px 0px 20px;
+	text-align:center;
+	background-color:rgba(0, 0, 0, 0);
+	border-width: 0px;
+	font-family:telefon;
+	font-size: 1.7vw;
+	color: #b40000;
+	border-style: solid;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+ul#navigation li button:hover {
+	color: white;
+	text-decoration:none;
+	cursor:pointer;
+}
+ul#navigation button:focus {outline:0;}
+
+#navlogo {
+	height:3vw;
+	margin:-5px;
+}
+#navlogolistitem {
+	float:left!important;
+}
+/* Scroll Progress Bar */
+#progressbar {
+	z-index: 1;
+	position: absolute;
+	height: 4px;
+	background: #fecc13;
+	width: 0%;
+}
+/* Hay Bale */
+#haybale {
+	z-index: 1;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+}
+/* Footer */
+#footer {
+	position:relative;
+	background-color: #D3D3D3;
+	width:100%;
+	height: 10rem;
+	left: 0%;
+	color: #b40000;
+	font-family: telefon;
+}
+
+#footersociallinks {
+	text-align: center;
+	padding-top: 1%;
+	font-size:3rem;
+	font-weight: bold;
+}
+#footersociallinks a, a:visited {
+	font-size:3rem;
+	text-decoration: none;
+	color: #b40000;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+#footersociallinks a:hover {
+	color: white; 
+}
